@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:id="@+id/holder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/holder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BBQ Fundraiser for Maria"
+            android:gravity=""
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@color/blackish"
+            android:layout_toEndOf="@+id/holder_avatar" />
+
+        <TextView
+            android:id="@+id/holder_creator"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity=""
+            android:text="Annie Kim"
+            android:layout_below="@+id/holder_time"
+            android:layout_toEndOf="@+id/holder_avatar"/>
+
+        <TextView
+            android:id="@+id/holder_time"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Posted January 21, 2017 5:43 pm "
+            android:layout_below="@+id/holder_title"
+            android:layout_toEndOf="@+id/holder_avatar"
+            />
+
+        <ImageView
+            android:transitionName="holder"
+            android:id="@+id/holder_avatar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="16dp"
+            android:src="@mipmap/avatar_one" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

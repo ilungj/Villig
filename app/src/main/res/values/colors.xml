@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#793C2D</color>
+    <color name="colorPrimaryDark">#3E2B27 </color>
+    <color name="colorAccent">#793C2D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="confetti">#E9D460</color>
+    <color name="casablanca">#F4B350</color>
+    <color name="reddish">#B26654</color>
+    <color name="brownish">#AC9380</color>
+    <color name="blackish">#3d3d3d</color>
+    <color name="lightgrey">#f4f4f4</color>
+</resources>
